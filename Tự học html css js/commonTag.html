@@ -1,7 +1,7 @@
 <!--
-1. h1 - h6
-2. p
-3. img
+1. h1 - h6 (heading:tiêu đề)
+2. p (paragraph: đoạn chữ)
+3. img (image: ảnh, thẻ đơn)
 4. a
 5. ul, li
 6. table
@@ -16,6 +16,67 @@
         <meta charset = "utf - 8">
     </head>
     <body>
-        
+
+        <!--1. h1 (heading:tiêu đề) -->
+        <h1>Đại học Quốc gia Hà Nội</h1>
+        <h2>Đáng quan tâm</h2>
+
+        <!--2. (paragraph: đoạn chữ)-->
+        <p>Trường Đại học Công nghệ</p>
+        <p>Trường Đại học Kinh tế</p>
+
+        <!--3. img: ảnh. Là thẻ đơn, phần tử inline-->
+        <img src="ttps://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/hoc_phi_uet_2025_c270fb4fc7.jpg" alt="Ảnh Trường UET">
+        <!--Thuộc tính alt không bắt buộc. Nếu ảnh bị hỏng không lấy được thì sẽ hiện ra phần alt-->
+     
+        <!--Thẻ xuống dòng-->
+        <br>
+     
+        <!--4. a(anchor): link liên kết. Là phẩn tử inline-->
+        <a href="">Tới trang học lập trình</a>
+        <!---->
+
+        <!--5. ul, li: unordered list, list-->
+        <ul>Thịt chó
+            <!--li là thẻ con: chỉ đầu mục danh sách. Có thể nhồi các thứ ở đây. Hạn chế nhồi ở ul-->
+            <li>HTML, CSS là gì</li>
+            <li>Cài đặt</li>
+            <li>fdsf</li>
+            <li>hina</li>
+        </ul>
+
+        <!--6. table: bảng-->
+        <table>
+            <thead> <!--Tiêu đề bảng-->
+                <th>STT</th>
+                <th>Name</th>
+                <th>Điểm</th>
+                <th>Gay</th>
+            </thead>
+            <tbody> <!--Thân bảng-->  
+                <tr> <!--table row-->
+                    <td>1</td> <!--table data-->
+                    <td>Phúc</td>
+                    <td>10</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>2</td> <!--table data-->
+                    <td>Púc</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--7. input: đầu vào.-->
+        <label>
+        <span>Thích ăn gì </span> <!--span là thẻ inline -->
+        <input name = "helo" type="checkbox"> <!--Name có tác dụng giúp phân biệt các mẫu checkbox khác nhau-->
+        </label> <!--label là nhãn dán, là thẻ inline. Thêm label thì mình bấm vào đâu cũng có tác dụng như bấm vào ô check box-->
+
+        <!--8. button: nút-->
+        <button> Ăn cứt</button>
+
+        <!--9. div: Thẻ khối nhóm tất cả lại-->
     </body>
 </html>
