@@ -1,6 +1,6 @@
 #  [TỰ HỌC HTML CSS JAVASCRIPT CƠ BẢN]
 
-Một câu mô tả ngắn gọn về dự án. (VD: Đây là một trang web tĩnh được thiết kế nhằm mục đích luyện tập kỹ năng cắt HTML/CSS và xử lý tương tác cơ bản bằng JavaScript.)
+TỰ HỌC ĐƠN GIẢN VỚI NGUỒN YOUTUBE F8
 
 ##  Xem trực tiếp (Live Demo)
 >  
